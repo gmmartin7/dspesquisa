@@ -27,6 +27,8 @@ public class Record implements Serializable{
 	@JoinColumn(name = "game_id")
 	private Game game;
 	
+	
+	
 	public Record() {
 	}
 

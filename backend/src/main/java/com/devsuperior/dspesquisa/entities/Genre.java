@@ -29,6 +29,10 @@ public class Genre implements Serializable{
 		this.id = id;
 		this.name = name;
 	}
+	
+	public Genre() {
+
+	}
 
 	public long getId() {
 		return id;

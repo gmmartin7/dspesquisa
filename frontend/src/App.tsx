@@ -1,8 +1,7 @@
-import { Route } from "react-router-dom";
 import "./App.css";
+import Routes from "./Routes";
 
 function App() {
-  return <Route />;
+  return <Routes />;
 }
-
 export default App;
